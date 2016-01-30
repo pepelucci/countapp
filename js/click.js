@@ -9,8 +9,9 @@ var Counter = React.createClass({
 		console.log(value)
 		return (
 			<div>
+			  <button type="button" onClick={onIncreaseClick}>Click!</button>
 			  <p>Total count: { value }</p>
-			  <button type="button" onClick={onIncreaseClick}>Add Item</button>
+			
 			</div>
 		);
 	}
